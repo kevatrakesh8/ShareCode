@@ -1,0 +1,211 @@
+
+@{
+    ViewBag.Title = "Test";
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <br />
+    <br />
+    <br />
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="inputEmail3" class=" col-sm-4 col-form-label">Company:</label>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="Text" class="form-control text-left" id="" placeholder="KPNGUAT">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea class=" form-control" rows="2" placeholder="Enter ..." disabled=""></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="inputEmail3" class=" col-sm-4 col-form-label">From Date:</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="date" class="form-control" id="" placeholder="KPNGUAT">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="inputEmail3" class=" col-sm-4 col-form-label">From Date:</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="date" class="form-control" id="" placeholder="KPNGUAT">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="inputEmail3" class=" col-sm-4 col-form-label">Emp ID:</label>
+                                </div>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" id="" placeholder="Emp001">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <input class=" col-md-6 btn btn-primary" type="button" value="Show">
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section>
+
+        <div class="container">
+            <form style="border:1px groove; padding-top:10px; padding-bottom : 10px" ;>
+                <div class="row">
+                    <div class="col-sm-2">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="row">
+                                    <input class="form-check-input" type="radio" name="radio1">
+                                    <label class="form-check-label">Claim Details</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="row">
+                                    <input class="form-check-input" type="radio" name="radio1">
+                                    <label class="form-check-label">Bill Details</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="row">
+                                    <input class="form-check-input" type="radio" name="radio1">
+                                    <label class="form-check-label">Attachment</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="row">
+                                    <input class="form-check-input" type="radio" name="radio1">
+                                    <label class="form-check-label">New Report</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="row">
+                                    <input class="form-check-input" type="radio" name="radio1">
+                                    <label class="form-check-label">Lta Claim Details</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="form-group" data-select2-id="58">
+                                    <label>Claim Status</label>
+                                    <select class="form-control select2bs4 select2-hidden-accessible" style="width: 100%;" data-select2-id="17" tabindex="-1" aria-hidden="true">
+                                        <option selected="selected">All</option>
+                                        <option>FGH</option>
+                                        <option>SMPT</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="form-group row">
+                            <label for="FromDate" class="col-sm-2 col-form-label">From Date</label>
+                            <div class="col-sm-4">
+                                <input type="date" class="form-control" id="StartDate" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="form-group row">
+                            <label for="ToDate" class="col-sm-2 col-form-label">To Date</label>
+                            <div class="col-sm-4">
+                                <input type="date" class="form-control" id="ToDate" placeholder="Todate">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="form-group row">
+                            <label for="EmpId" class="col-sm-2 col-form-label">Emp ID</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="StartDate" placeholder="EmpID">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+
+                    </div>
+                    <div class="col-sm-8">
+
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                    </div>
+                    <div class="col-sm-2">
+
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>
